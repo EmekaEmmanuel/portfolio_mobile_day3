@@ -6,7 +6,9 @@
  Below are the sections contained in this project;
 - Toolbar
 - Headline section (right after the header).
-The layout was done using css flexbox in all 2 sections.
+- Works
+- About myself
+The layout was done using css flexbox and css grid, button interactions implemented.
 
 
 ## Live link
