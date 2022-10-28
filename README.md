@@ -18,6 +18,29 @@ The layout was done using css flexbox and css grid, button interactions implemen
 - HTML
 - CSS
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+
+### Usage
+#### Clone this repository
+
+```bash
+$ https://github.com/EmekaEmmanuel/portfolio_mobile_day3.git
+$ cd portfolio_mobile_day3
+```
+
+#### Open page in browser
+```bash
+$ runs on http://127.0.0.1/5500
+
 ## Authors
 
 👤 **Author1**
