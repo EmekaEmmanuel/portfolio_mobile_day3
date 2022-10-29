@@ -6,7 +6,9 @@
  Below are the sections contained in this project;
 - Toolbar
 - Headline section (right after the header).
-The layout was done using css flexbox in all 2 sections.
+- Works
+- About myself
+The layout was done using css flexbox and css grid, button interactions implemented.
 
 
 ## Live link
@@ -15,6 +17,29 @@ The layout was done using css flexbox in all 2 sections.
 ## Built With
 - HTML
 - CSS
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+
+### Usage
+#### Clone this repository
+
+```bash
+$ https://github.com/EmekaEmmanuel/portfolio_mobile_day3.git
+$ cd portfolio_mobile_day3
+```
+
+#### Open page in browser
+```bash
+$ runs on http://127.0.0.1/5500
 
 ## Authors
 
