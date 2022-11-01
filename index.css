@@ -167,8 +167,7 @@
 }
 
 .float_box1 {
-  float: left;
-  padding: 4px;
+  float: none;
 }
 
 .font4 {
