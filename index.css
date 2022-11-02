@@ -352,6 +352,7 @@ label {
   line-height: 28px;
   padding: 15px 0;
   outline: none;
+  border-radius: 10px;
 }
 
 .input1::placeholder {
@@ -370,6 +371,7 @@ label {
   line-height: 28px;
   padding: 10px 0;
   outline: none;
+  border-radius: 10px;
 }
 
 .textarea1::placeholder {
