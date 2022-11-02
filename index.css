@@ -208,6 +208,10 @@
   background-color: #fff;
 }
 
+.btn_1 {
+  color: #6070ff;
+}
+
 .article1 button:hover,
 .article2 button:hover,
 .article3 button:hover,
@@ -308,8 +312,13 @@
 
 .contact_section {
   padding: 150px 0 20px 0;
-  background-color: #6070ff;
-  border-top-left-radius: 150px;
+  border-top-left-radius: 100px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(96, 112, 255, 0.85), rgba(96, 112, 255, 0.85)), url(./img/background2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 5px bottom 10%;
 }
 
 .contact_form {
@@ -350,7 +359,7 @@ label {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
-  padding: 15px 0;
+  padding: 15px;
   outline: none;
   border-radius: 10px;
 }
@@ -360,7 +369,6 @@ label {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
-  padding: 15px;
 }
 
 .textarea1 {
@@ -369,7 +377,7 @@ label {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
-  padding: 10px 0;
+  padding: 10px 15px;
   outline: none;
   border-radius: 10px;
 }
@@ -379,5 +387,4 @@ label {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
-  padding: 4px 15px;
 }
