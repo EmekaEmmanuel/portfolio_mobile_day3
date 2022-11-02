@@ -309,6 +309,7 @@
 .contact_section {
   padding: 150px 0 20px 0;
   background-color: #6070ff;
+  border-top-left-radius: 10%;
 }
 
 .contact_form {
