@@ -231,7 +231,7 @@
 .about_self_section {
   width: 90%;
   margin: auto;
-  padding: 40px 0 40px 0;
+  padding: 40px 0 120px 0;
 }
 
 .font7 {
@@ -309,11 +309,11 @@
 .contact_section {
   padding: 150px 0 20px 0;
   background-color: #6070ff;
-  border-top-left-radius: 10%;
+  border-top-left-radius: 150px;
 }
 
 .contact_form {
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 
