@@ -200,18 +200,24 @@
 .article2 button,
 .article3 button,
 .article4 button,
-.about_self_section button {
+.about_self_section button,
+.btn_1 {
   padding: 10px 10px;
   border: 1px solid #6070ff;
   border-radius: 10px;
   background-color: #fff;
 }
 
+.btn_1 {
+  color: #6070ff;
+}
+
 .article1 button:hover,
 .article2 button:hover,
 .article3 button:hover,
 .article4 button:hover,
-.about_self_section button:hover {
+.about_self_section button:hover,
+.btn_1:hover {
   padding: 10px 15px;
   border: 1px solid #fff;
   background-color: #6070ff;
@@ -221,14 +227,15 @@
 .article2 button a:hover,
 .article3 button a:hover,
 .article4 button a:hover,
-.about_self_section button a:hover {
+.about_self_section button a:hover,
+.btn_1:hover {
   color: #fff;
 }
 
 .about_self_section {
   width: 90%;
   margin: auto;
-  padding: 40px 0 40px 0;
+  padding: 40px 0 120px 0;
 }
 
 .font7 {
@@ -301,4 +308,83 @@
   font-size: 32px;
   align-items: left;
   font-weight: 700;
+}
+
+.contact_section {
+  padding: 150px 0 20px 0;
+  border-top-left-radius: 100px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgba(96, 112, 255, 0.85), rgba(96, 112, 255, 0.85)), url(./img/background2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 5px bottom 10%;
+}
+
+.contact_form {
+  width: 90%;
+  margin: auto;
+}
+
+.contact_form header {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact_form p {
+  color: #ebebff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+fieldset {
+  border: none;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 5px 0;
+}
+
+.input1 {
+  width: 100%;
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 15px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.input1::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.textarea1 {
+  width: 100%;
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 10px;
+}
+
+.textarea1::placeholder {
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
 }
