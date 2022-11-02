@@ -8,6 +8,7 @@
 - Headline section (right after the header).
 - Works
 - About myself
+- Contact me
 The layout was done using css flexbox and css grid, button interactions implemented.
 
 
