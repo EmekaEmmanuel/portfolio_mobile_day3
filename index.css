@@ -19,6 +19,20 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  animation-duration: 2s;
+  animation-name: rotate360;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .header1 h3 a {
@@ -121,6 +135,13 @@
   object-position: center;
 }
 
+.article1 .figure1 img:hover,
+.article2 .figure1 img:hover,
+.article3 .figure1 img:hover,
+.article4 .figure1 img:hover {
+  transform: scale(1.1);
+}
+
 .show2 {
   display: none;
 }
@@ -221,6 +242,7 @@
   border: 1px solid #6070ff;
   border-radius: 10px;
   background-color: #fff;
+  transition: 0.5s;
 }
 
 .btn_1 {
@@ -383,6 +405,12 @@ label {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
+  transition: 3s;
+}
+
+.input1:hover::placeholder {
+  transform: translate(10px, 0);
+  color: #172b4d50;
 }
 
 .textarea1 {
@@ -401,6 +429,12 @@ label {
   font-size: 17px;
   font-weight: 400;
   line-height: 28px;
+  transition: 3s;
+}
+
+.textarea1:hover::placeholder {
+  transform: translate(10px, 0);
+  color: #172b4d50;
 }
 
 .list_style {
@@ -574,6 +608,13 @@ label {
     object-position: center;
   }
 
+  .article1 .figure2 img:hover,
+  .article2 .figure2 img:hover,
+  .article3 .figure2 img:hover,
+  .article4 .figure2 img:hover {
+    transform: scale(1.1);
+  }
+
   .show1 {
     display: none;
   }
@@ -608,8 +649,6 @@ label {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-
-    /* padding: 15px 0; */
   }
 
   .article1div p,
