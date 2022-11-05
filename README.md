@@ -10,6 +10,9 @@
 - About myself
 - Contact me
 The layout was done using css flexbox and css grid, button interactions implemented.
+Use media queries to make sure that website displays correctly on desktop screens. (Desktop: 768px or wider).
+
+
 
 
 ## Live link
