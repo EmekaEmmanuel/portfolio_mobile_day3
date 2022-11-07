@@ -16,7 +16,7 @@ Use media queries to make sure that website displays correctly on desktop screen
 
 
 ## Live link
-[View Live Link] (https://emekaemmanuel.github.io/Portfolio_mobile_day3/)
+[View Live Link] ( https://emekaemmanuel.github.io/portfolio_mobile_day3/)
 
 ## Built With
 - HTML
